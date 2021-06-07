@@ -1,0 +1,133 @@
+#tab {
+    .tab-wrapper {
+        .tab-header {
+            .tab {
+                border: 1px solid transparent;
+                margin-bottom: -1px;
+                border-bottom: 1px solid transparent;
+                color: teal;
+                padding-top: 15px;
+                padding-bottom: 8px;
+                &.active-tab {
+                    border-bottom: 1px solid white!important;
+                    color: #5dbf80!important;
+                }
+            }
+            .signature {
+                position: relative;
+                padding-top: 20px;
+                p#signature {
+                    font-family: 'Parisienne', cursive;
+                    font-size: 30px;
+                    color: rgb(100, 141, 19);
+                    display: inline-block;
+                }
+                img {
+                    width: 20%;
+                    top: -30px;
+                    right: 70px;
+                    position: absolute;
+                    transform: rotate(25deg);
+                }
+            }
+        }
+        .tab-content {
+            .tab-slide {
+                h2 {
+                    font-size: 50px;
+                    color: tomato;
+                }
+                .slider {
+                    padding-bottom: 40px;
+                }
+                .image {
+                    height: 450px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .arrow-icons {
+                    top: 45%;
+                    width: 100%;
+                    span {
+                        background: -webkit-linear-gradient( 45deg, #09009f, #00ff95 80%);
+                        opacity: 0.5;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        border: 1px solid;
+                        border-image-slice: 1;
+                        border-width: 3px;
+                        border-color: #00ff62;
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 2rem;
+                        margin: 0 10px;
+                        &:hover {
+                            opacity: 1;
+                            border-color: #06b96ebb;
+                        }
+                    }
+                }
+            }
+            .tab-taskBar {
+                background-color: #606060FF;
+                h2 {
+                    font-size: 50px;
+                    color: #D6ED17FF;
+                }
+                .taskBar-wrapper {
+                    background-color: white;
+                    h3 {
+                        font-size: 30px;
+                        color: #990011FF;
+                    }
+                    .to-do {
+                        li {
+                            background-color: #101820FF;
+                            color: #F2AA4CFF;
+                            margin-bottom: 5px;
+                            padding-left: 0;
+                            p {
+                                width: 260px;
+                                padding: 0;
+                                margin: 0;
+                                margin-left: 50px;
+                                overflow: auto;
+                            }
+                            .check {
+                                width: 30px;
+                                height: 30px;
+                                top: 5px;
+                                left: 5px;
+                                background-color: white;
+                                color: rgb(35, 179, 71);
+                                font-size: 35px;
+                                i {
+                                    position: relative;
+                                    bottom: 14px;
+                                }
+                            }
+                            .archive {
+                                top: 2px;
+                                right: 40px;
+                                font-size: 25px;
+                                color: #89da40;
+                            }
+                            .delete {
+                                top: 2px;
+                                right: 10px;
+                                font-size: 25px;
+                                color: #ff4545;
+                            }
+                        }
+                    }
+                    button {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

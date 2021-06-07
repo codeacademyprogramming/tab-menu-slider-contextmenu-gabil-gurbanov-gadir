@@ -1,0 +1,104 @@
+#tab .tab-wrapper .tab-header .tab {
+  border: 1px solid transparent;
+  margin-bottom: -1px;
+  border-bottom: 1px solid transparent;
+  color: teal;
+  padding-top: 15px;
+  padding-bottom: 8px; }
+  #tab .tab-wrapper .tab-header .tab.active-tab {
+    border-bottom: 1px solid white !important;
+    color: #5dbf80 !important; }
+
+#tab .tab-wrapper .tab-header .signature {
+  position: relative;
+  padding-top: 20px; }
+  #tab .tab-wrapper .tab-header .signature p#signature {
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    color: #648d13;
+    display: inline-block; }
+  #tab .tab-wrapper .tab-header .signature img {
+    width: 20%;
+    top: -30px;
+    right: 70px;
+    position: absolute;
+    transform: rotate(25deg); }
+
+#tab .tab-wrapper .tab-content .tab-slide h2 {
+  font-size: 50px;
+  color: tomato; }
+
+#tab .tab-wrapper .tab-content .tab-slide .slider {
+  padding-bottom: 40px; }
+
+#tab .tab-wrapper .tab-content .tab-slide .image {
+  height: 450px; }
+  #tab .tab-wrapper .tab-content .tab-slide .image img {
+    width: 100%;
+    height: 100%; }
+
+#tab .tab-wrapper .tab-content .tab-slide .arrow-icons {
+  top: 45%;
+  width: 100%; }
+  #tab .tab-wrapper .tab-content .tab-slide .arrow-icons span {
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    opacity: 0.5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-color: #00ff62;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    margin: 0 10px; }
+    #tab .tab-wrapper .tab-content .tab-slide .arrow-icons span:hover {
+      opacity: 1;
+      border-color: #06b96ebb; }
+
+#tab .tab-wrapper .tab-content .tab-taskBar {
+  background-color: #606060FF; }
+  #tab .tab-wrapper .tab-content .tab-taskBar h2 {
+    font-size: 50px;
+    color: #D6ED17FF; }
+  #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper {
+    background-color: white; }
+    #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper h3 {
+      font-size: 30px;
+      color: #990011FF; }
+    #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li {
+      background-color: #101820FF;
+      color: #F2AA4CFF;
+      margin-bottom: 5px;
+      padding-left: 0; }
+      #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li p {
+        width: 260px;
+        padding: 0;
+        margin: 0;
+        margin-left: 50px;
+        overflow: auto; }
+      #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li .check {
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        left: 5px;
+        background-color: white;
+        color: #23b347;
+        font-size: 35px; }
+        #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li .check i {
+          position: relative;
+          bottom: 14px; }
+      #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li .archive {
+        top: 2px;
+        right: 40px;
+        font-size: 25px;
+        color: #89da40; }
+      #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper .to-do li .delete {
+        top: 2px;
+        right: 10px;
+        font-size: 25px;
+        color: #ff4545; }
+    #tab .tab-wrapper .tab-content .tab-taskBar .taskBar-wrapper button {
+      width: 50%; }

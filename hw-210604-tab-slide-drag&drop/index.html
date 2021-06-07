@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/582d45796b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <section id="tab" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tab-wrapper">
+                            <div class="tab-header">
+                                <div class="row border-bottom border-info">
+                                    <div class="col-3 text-center me-1 tab slide-header active-tab border-info rounded-top" data-tab="tab-slide">
+                                        <h2> My Slider Task</h2>
+                                    </div>
+                                    <div class="col-3 text-center tab taskBar-header" data-tab="tab-taskBar">
+                                        <h2>My Task Bar</h2>
+                                    </div>
+                                    <div class="col-5 text-center signature">
+                                        <p id="signature" class="mb-0">ByGabilGG :</p>
+                                        <img src="./assets/images/mySignature.png" alt="signature">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content mt-5">
+                                <div class="tab-slide text-center">
+                                    <h2>My slider</h2>
+                                    <div class="slider mt-5">
+                                        <div class="row justify-content-center">
+                                            <div class="col-7 p-0 rounded-3 overflow-hidden position-relative">
+                                                <div class="images-wrapper position-relative">
+                                                    <div class="image d-block" data-slide="1">
+                                                        <img src="./assets/images/forSlide/01.jpeg" alt="1">
+                                                    </div>
+                                                    <div class="image d-none" data-slide="2">
+                                                        <img src="./assets/images/forSlide/02.jpeg" alt="2">
+                                                    </div>
+                                                    <div class="image d-none" data-slide="3">
+                                                        <img src="./assets/images/forSlide/03.jpeg" alt="3">
+                                                    </div>
+                                                    <div class="image d-none" data-slide="4">
+                                                        <img src="./assets/images/forSlide/04.jpeg" alt="4">
+                                                    </div>
+                                                    <div class="image d-none" data-slide="5">
+                                                        <img src="./assets/images/forSlide/05.jpeg" alt="5">
+                                                    </div>
+                                                    <div class="image d-none" data-slide="6">
+                                                        <img src="./assets/images/forSlide/06.jpeg" alt="6">
+                                                    </div>
+                                                </div>
+                                                <div class="arrow-icons position-absolute d-flex justify-content-between">
+                                                    <span class="left d-flex justify-content-center align-items-center"><i
+                                                            class="fas fa-chevron-left"></i></span>
+                                                    <span class="right d-flex justify-content-center align-items-center"><i
+                                                            class="fas fa-chevron-right"></i></span>
+                                                </div>
+                                                <div class="slider-indigators position-absolute">
+                                                    <span class="indigator" data-slide="1"></span>
+                                                    <span class="indigator" data-slide="2"></span>
+                                                    <span class="indigator" data-slide="3"></span>
+                                                    <span class="indigator" data-slide="4"></span>
+                                                    <span class="indigator" data-slide="5"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-taskBar text-center rounded-3 p-3 d-none">
+                                    <h2>My Task Bar</h2>
+                                    <div class="taskBar-wrapper rounded-3 p-3 my-4 m-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <h3>To do List</h3>
+                                                <ul class="to-do list-group">
+                                                    <li class="list-group-item position-relative">
+                                                        <span class="check position-absolute border border-light rounded"><i
+                                                                class="fas fa-check"></i></span>
+                                                        <p>1234567890123456789012345</p>
+                                                        <span class="archive position-absolute"><i
+                                                                class="fas fa-archive"></i></span>
+                                                        <span class="delete position-absolute"><i
+                                                                class="fas fa-trash-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <button type="button" class="btn btn-outline-danger mt-1"><span><i
+                                                            class="fas fa-plus"></i></span></button>
+                                                <input type="text" class="form-control mt-1">
+                                                <button type="button" class="btn btn-outline-success mt-1">Add</button>
+                                            </div>
+                                            <div class="col-4"></div>
+                                            <div class="col-4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
